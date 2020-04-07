@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assests/css/loader.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assests/libs/fontawesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assests/css/progress_bar.css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -33,6 +36,7 @@
                     </li>
                 </ul>
             </div>
+            
         </nav>
         <div class="loader-wrapper">
             <div class="loader">
@@ -59,10 +63,79 @@
                         <span class="circle circle-dark"></span>
                         <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
                     </h1>
-
                 </div>
             </div>
-
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 id="homepage_content">This is Akshay,</h2>
+                    <h3 id="homepage_content2">Web Developer</h3>
+                </div>
+            </div>
+        </section>
+        <section id="about_us">
+            <div class="container">
+                <h3 class="title_about"><i class="fa fa-code" aria-hidden="true"></i>  About</h3>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-4">
+                        <img id="profile_photo" src="assests/images/akshay.JPG">
+                    </div>
+                    <div class="col-12 col-md-8 about_content">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Education">
+            <div class="container">
+                <h3 class="title_about"><i class="fa fa-code" aria-hidden="true"></i>  Level of Education</h3>
+            </div>
+            <div class="progress_bar">
+                <div class="card">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>9.4<span>CGPA</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">AISSE</h2>
+                    </div>
+                </div>
+                <div class="card"> 
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>94<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">AISSCE</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="percent">
+                            <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h2>86<span>%</span></h2>
+                            </div>
+                        </div>
+                        <h2 class="text">Bsc (H) CS</h2>
+                    </div>
+                </div>
+            </div> 
         </section>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
         <script src="assests/js/homepage_anime.js"></script>
@@ -70,6 +143,19 @@
             $(window).on("load",function(){
                 $(".loader-wrapper").fadeOut("slow")
             });
+        </script>
+        <script src="assests/js/three.r95.min.js"></script>
+        <script src="assests/js/vanta.net.min.js"></script>
+        <script>
+            VANTA.RINGS({
+                el: "#homepage",
+                mouseControls: true,
+                touchControls: true,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00,
+                })
         </script>
     </body>
 </html>
