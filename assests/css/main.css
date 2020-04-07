@@ -2,6 +2,7 @@ body{
     margin: 0px;
     width: 100%;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 body::-webkit-scrollbar {
   width: 0.5em;
@@ -30,18 +31,25 @@ nav ul li a{
 }
 
 #homepage{
-    background-color: #7ee8fa;
-    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 700px;
 }
 .title{
-    margin-top: 200px;
+    margin-top: 180px;
+    
+}
+.title_about{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: -48px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
 }
 h1.ml8 {
   font-weight: 900;
-  font-size: 4.5em;
+  font-size: 4.0em;
   color: #fff;
   width: 3em;
   height: 3em;
@@ -50,7 +58,7 @@ h1.ml8 {
 .ml8 .letters-container {
   position: absolute;
   left: 0;
-  right: 0;
+  right: 755px;
   margin: auto;
   top: 0;
   bottom: 0;
@@ -75,7 +83,7 @@ h1.ml8 {
 .ml8 .circle {
   position: absolute;
   left: 0;
-  right: 0;
+  right: 768px;
   margin: auto;
   top: 0;
   bottom: 0;
@@ -89,18 +97,130 @@ h1.ml8 {
 }
 
 .ml8 .circle-dark {
-  width: 2.2em;
-  height: 2.2em;
+  width: 2.4em;
+  height: 2.4em;
   background-color: #4f7b86;
-  border-radius: 3em;
+  border-radius: 3.4em;
   z-index: 1;
 }
 
 .ml8 .circle-dark-dashed {
-  border-radius: 3em;
+  border-radius: 2.4em;
   background-color: transparent;
   border: 2px dashed #4f7b86;
-  width: 2.3em;
-  height: 2.3em;
+  width: 2.5em;
+  height: 2.5em;
+  left: 230px;
 }
-@keyframes 
+#about_us{
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+} 
+#profile_photo{
+    width: 65%;
+    margin-left: 10px;
+    border-width: thick;
+    border-radius: 15px;
+    z-index: 999999;   
+}
+#homepage_content{
+    margin-left: 175px;
+    color: floralwhite;
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+#homepage_content2{
+    margin-left: 185px;
+    color: floralwhite;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.progress_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+    
+    position: relative;
+    
+}
+.progress_bar .card{
+    position: relative;
+    width: 250px;
+    background: linear-gradient(0deg,#1b1b1b,#222,#1b1b1b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 20px;
+}
+.progress_bar .card:hover{
+    transform: translate(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.5);
+}
+.progress_bar .card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.03);
+    z-index: 1;
+}
+.percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000;
+    background: #222;
+    z-index: 1000;
+}
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.percent .number h2{
+    color: #777;
+    font-weight: 700;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.card:hover .percent .number h2{
+    color: #fff;
+    font-size: 50px;
+}
+.percent .number h2 span{
+    font-size: 24px;
+    color: #777;
+}
+.card:hover .percent .number h2 span{
+    color: #fff;
+}
+.text{
+    position: relative;
+    color: #777;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.card:hover .text{
+    color: #fff;
+}
