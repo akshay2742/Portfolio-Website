@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assests/css/main.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -9,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="assests/libs/fontawesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="assests/css/progress_bar.css">
+        <link rel="stylesheet" href="assests/css/animate.css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -79,7 +81,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-4">
-                        <img id="profile_photo" src="assests/images/akshay.jpg">
+                        <img id="profile_photo" src="assests/images/akshay.JPG">
                     </div>
                     <div class="col-12 col-md-8 about_content">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -89,8 +91,8 @@
             </div>
         </section>
         <section id="Education">
-            <div class="container">
-                <h3 class="title_about"><i class="fa fa-code" aria-hidden="true"></i>  Level of Education</h3>
+            <div class="container animatable fadeIn">
+                <h3 class="title_about animatable bounceInLeft"><i class="fa fa-code" aria-hidden="true"></i>  Level of Education</h3>
             </div>
             <div class="progress_bar">
                 <div class="card">
@@ -146,6 +148,7 @@
         </script>
         <script src="assests/js/three.r95.min.js"></script>
         <script src="assests/js/vanta.net.min.js"></script>
+        <script src="assests/js/animate.js"></script>
         <script>
             VANTA.RINGS({
                 el: "#homepage",
