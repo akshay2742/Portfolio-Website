@@ -6,6 +6,7 @@ body{
 }
 .homepage_icon{
     width: 100%;
+    margin-top: 50px;
 }
 .homepage_button{
     float: left;
@@ -14,9 +15,28 @@ body{
 .navigation_bar{
     opacity: 0;
 }
+.social_icons{
+    float: left;
+    margin-top: 30px;
+}
+.social_icons2{
+    float: left;
+    margin-top: 10px;
+}
+.social_icon_width{
+    width: 20%;
+}
 @media only screen and (max-width:768px){
     .homepage_icon {
         margin-top: 20px;
         width: 50%;
+    }
+    .social_icons {
+        float: left;
+        margin-top: 25px;
+    }
+    .social_icons2 {
+        float: left;
+        margin-top: 10px;
     }
 }
