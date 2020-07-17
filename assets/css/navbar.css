@@ -13,7 +13,7 @@
         position: fixed;
         z-index: 999;
         top: 50%;
-        right: 15px;
+        right: 10px;
         -webkit-transform: translateY(-50%);
         transform: translateY(-50%);
     }
