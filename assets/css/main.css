@@ -1,0 +1,21 @@
+body{
+    font-family: "Fira Code",monospace;
+}
+.section_height{
+    height: 650px;
+}
+.homepage_icon{
+    width: 100%;
+}
+.homepage_button{
+    float: left;
+    margin-top: 10px;
+}
+.navigation_bar{
+    opacity: 0;
+}
+@media only screen and (max-width:768px){
+    .homepage_icon {
+        width: 50%;
+    }
+}

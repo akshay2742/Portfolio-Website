@@ -1,164 +1,88 @@
 <!doctype html>
 <html>
-    <head>
-        <title>My Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assests/css/main.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assests/css/loader.css">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="assests/libs/fontawesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assests/css/progress_bar.css">
-        <link rel="stylesheet" href="assests/css/animate.css">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-sm navigation_bar">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            
-        </nav>
-        <div class="loader-wrapper">
-            <div class="loader">
 
-                <div class="sk-chase">
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
-                    <div class="sk-chase-dot"></div>
+<head>
+    <title>Akshay Sharma</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/typing_effect.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <ul class="nav-menu">
+            <li>
+                <a data-scroll="home" href="#home" class="dot active">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a data-scroll="about" href="#about" class="dot">
+                    <span>About me</span>
+                </a>
+            </li>
+            <li>
+                <a data-scroll="services" href="#services" class="dot">
+                    <span>Services</span>
+                </a>
+            </li>
+            <li>
+                <a data-scroll="test" href="#test" class="dot">
+                    <span>Testimonials</span>
+                </a>
+            </li>
+            <li>
+                <a data-scroll="contact" href="#contact" class="dot">
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section class="section_height" id="homepage">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-6 wrapper">
+                    <center>
+                        <h2>I'm Akshay Sharma</h2>
+                    </center>
+                    <div data-text></div>
+                    <span class="item">UI & UX designer</span>
+                    <span class="item">Full Stack Web Developer</span>
+                    <span class="item">Android Developer</span>
+                    <span class="item">ML Enthusiast</span>
+                    <button type="button" class="btn btn-danger homepage_button">Download CV</button>
+                </div>
+                <div class="col-md-6 col-xs-6">
+                    <center><img class="homepage_icon" src="assets/images/icons/undraw_Hello_qnas.svg"></center>
                 </div>
             </div>
         </div>
-        <section id="homepage">
-            <div class="row">
-                <div class="col-md-12 title">
-                    <h1 class="ml8">
-                        <span class="letters-container">
-                            <center><span class="letters letters-left">Hi</span>
-                            <span class="letters bang">!</span></center>
-                        </span>
-                        <span class="circle circle-white"></span>
-                        <span class="circle circle-dark"></span>
-                        <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
-                    </h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 id="homepage_content">This is Akshay,</h2>
-                    <h3 id="homepage_content2">Web Developer</h3>
-                </div>
-            </div>
-        </section>
-        <section id="about_us">
-            <div class="container">
-                <h3 class="title_about"><i class="fa fa-code" aria-hidden="true"></i>  About</h3>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-4">
-                        <img id="profile_photo" src="assests/images/akshay.jpg">
-                    </div>
-                    <div class="col-12 col-md-8 about_content">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="Education">
-            <div class="container animatable fadeIn">
-                <h3 class="title_about animatable bounceInLeft"><i class="fa fa-code" aria-hidden="true"></i>  Level of Education</h3>
-            </div>
-            <div class="progress_bar">
-                <div class="card">
-                    <div class="box">
-                        <div class="percent">
-                            <svg>
-                                <circle cx="70" cy="70" r="70"></circle>
-                                <circle cx="70" cy="70" r="70"></circle>
-                            </svg>
-                            <div class="number">
-                                <h2>9.4<span>CGPA</span></h2>
-                            </div>
-                        </div>
-                        <h2 class="text">AISSE</h2>
-                    </div>
-                </div>
-                <div class="card"> 
-                    <div class="box">
-                        <div class="percent">
-                            <svg>
-                                <circle cx="70" cy="70" r="70"></circle>
-                                <circle cx="70" cy="70" r="70"></circle>
-                            </svg>
-                            <div class="number">
-                                <h2>94<span>%</span></h2>
-                            </div>
-                        </div>
-                        <h2 class="text">AISSCE</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <div class="percent">
-                            <svg>
-                                <circle cx="70" cy="70" r="70"></circle>
-                                <circle cx="70" cy="70" r="70"></circle>
-                            </svg>
-                            <div class="number">
-                                <h2>86<span>%</span></h2>
-                            </div>
-                        </div>
-                        <h2 class="text">Bsc (H) CS</h2>
-                    </div>
-                </div>
-            </div> 
-        </section>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-        <script src="assests/js/homepage_anime.js"></script>
-        <script>
-            $(window).on("load",function(){
-                $(".loader-wrapper").fadeOut("slow")
-            });
-        </script>
-        <script src="assests/js/three.r95.min.js"></script>
-        <script src="assests/js/vanta.net.min.js"></script>
-        <script src="assests/js/animate.js"></script>
-        <script>
-            VANTA.RINGS({
-                el: "#homepage",
-                mouseControls: true,
-                touchControls: true,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                scale: 1.00,
-                scaleMobile: 1.00,
-                })
-        </script>
-    </body>
+    </section>
+    <script src="assets/js/three.r95.min.js"></script>
+    <script src="assets/js/vanta.net.min.js"></script>
+    <script src="assets/js/typing_effect.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        VANTA.WAVES({
+        el: "#homepage",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 300.00,
+        minWidth: 300.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x40405,
+        shininess: 33.00,
+        waveHeight: 22.50,
+        waveSpeed: 1.50,
+        zoom: 1.40
+        })
+    </script>
+</body>
+
 </html>
