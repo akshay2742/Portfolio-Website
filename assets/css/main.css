@@ -95,6 +95,10 @@ tr:hover {
     color: #eee;
     margin-top: 15px;
 }
+.clr-white_cb{
+    color: #eee;
+    margin-top: 50px;
+}
 .homepage_button_achievements{
     margin-top: 10px;
 }
@@ -133,10 +137,10 @@ tr:hover {
         height: 630px;
     }
     .section_height_about {
-        height: 430px;
+        height: 460px;
     }
     .section_height_achievements {
-        height: 1400px;
+        height: 1430px;
     }
     .section_height_education {
         height: 950px;
@@ -160,5 +164,8 @@ tr:hover {
     }
     .CB_icon {
         width: 70%;
+    }
+    .section_spacing_education {
+        padding-top: 50px;
     }
 }
