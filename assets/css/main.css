@@ -2,7 +2,13 @@ body{
     font-family: "Fira Code",monospace;
 }
 .section_height{
-    height: 650px;
+    height: 640px;
+}
+.section_height_about{
+    height: 540px;
+}
+.section_spacing{
+    padding-top: 30px;
 }
 .homepage_icon{
     width: 100%;
@@ -26,6 +32,90 @@ body{
 .social_icon_width{
     width: 20%;
 }
+#about{
+    background-color: #000;
+}
+.image_about{
+    width: 60%;
+    align-items: center;
+    left: 50%;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:768px){
+    .image_about{
+        width: 40%;
+    }
+}
+.heading{
+    color: #eee;
+    font-size: 30px;
+    
+}
+.fa-cube{
+    color: crimson;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid white;
+  margin-top: 13px;    
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #eee;
+}
+th{
+    background-color: crimson;
+    
+}
+tr:hover {
+    background-color:#f5f5f5;
+    color: #000;
+}
+#achievements{
+    background-color: #000;
+}
+.achievement_icon{
+    width: 5%;
+}
+.hackerrank_icon{
+    width: 50%;
+}
+.CB_icon{
+    width: 30%;
+}
+.clr-white{
+    color: #eee;
+    margin-top: 10px;
+}
+.clr-white_cn{
+    color: #eee;
+    margin-top: 15px;
+}
+.homepage_button_achievements{
+    margin-top: 10px;
+}
+.section_height_achievements {
+    height: 830px;
+}
+.section_height_education {
+    height: 640px;
+}
+.icon_row_spacing{
+    margin-top: 70px;
+}
+#education{
+    background-color: #000;
+}
+.timeline_heading{
+    color: #eee;
+}
+.fa-university,.fa-graduation-cap,.fa-star{
+    color: crimson;
+}
 @media only screen and (max-width:768px){
     .homepage_icon {
         margin-top: 20px;
@@ -38,5 +128,37 @@ body{
     .social_icons2 {
         float: left;
         margin-top: 10px;
+    }
+    .section_height {
+        height: 630px;
+    }
+    .section_height_about {
+        height: 430px;
+    }
+    .section_height_achievements {
+        height: 1400px;
+    }
+    .section_height_education {
+        height: 950px;
+    }
+    .image_about{
+        display: none;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 2px solid white;
+    }
+    .achievement_icon {
+        width: 10%;
+    }
+    .icon_spacing {
+        margin-top: 50px;
+    }
+    .icon_row_spacing {
+        margin-top: 50px;
+    }
+    .CB_icon {
+        width: 70%;
     }
 }
