@@ -12,6 +12,7 @@
   color: #000;
   max-height: 50px;
   z-index: 2;
+  margin-bottom: 118px;
 }
 .circle2 {
     font-weight: bold;
@@ -30,6 +31,7 @@
     color: #000;
     max-height: 50px;
     z-index: 2;
+    margin-top: 90px;
 }
 .how-it-works.row {
   display: flex;
@@ -47,9 +49,9 @@
   z-index: 1;
 }
 .how-it-works.row .col-2.bottom::after {
-  height: 50%;
+  height: 80%;
   left: 50%;
-  top: 50%;
+  top: 20%;
 }
 .how-it-works.row .col-2.full::after {
   height: 100%;
@@ -85,7 +87,7 @@
   left: calc(50% - 3px);
 }
 .how-it-works1.row .col-2.top::after {
-  height: 50%;
+  height: 70%;
   left: 50%;
   top: 0;
 }

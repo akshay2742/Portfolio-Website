@@ -7,12 +7,15 @@ body{
 .section_height_about{
     height: 540px;
 }
+.section_height_skills{
+    height: 700px;
+}
 .section_spacing{
     padding-top: 30px;
 }
 .homepage_icon{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .homepage_button{
     float: left;
@@ -71,6 +74,9 @@ th{
     background-color: crimson;
     
 }
+td:hover{
+    color: #000;
+}
 tr:hover {
     background-color:#f5f5f5;
     color: #000;
@@ -106,7 +112,7 @@ tr:hover {
     height: 830px;
 }
 .section_height_education {
-    height: 640px;
+    height: 750px;
 }
 .icon_row_spacing{
     margin-top: 70px;
@@ -119,6 +125,23 @@ tr:hover {
 }
 .fa-university,.fa-graduation-cap,.fa-star{
     color: crimson;
+}
+.education_icon{
+    width: 80%;
+    margin-top: 100px;
+}
+#skills{
+    background-color: #000;
+}
+.skill_icon{
+    width: 100%;
+    margin-top: 70px;
+}
+.skill_text{
+    font-size: 20px;
+    color: #eee;
+    margin-top: 160px;
+    
 }
 @media only screen and (max-width:768px){
     .homepage_icon {
@@ -142,10 +165,16 @@ tr:hover {
     .section_height_achievements {
         height: 1430px;
     }
+    .section_height_skills {
+        height: 1240px;
+    }
     .section_height_education {
         height: 980px;
     }
     .image_about{
+        display: none;
+    }
+    .education_icon{
         display: none;
     }
     table {
@@ -167,5 +196,8 @@ tr:hover {
     }
     .section_spacing_education {
         padding-top: 50px;
+    }
+    .skill_icon {
+        display: none;
     }
 }
