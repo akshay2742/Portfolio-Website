@@ -90,6 +90,9 @@ tr:hover {
 .hackerrank_icon{
     width: 50%;
 }
+.hackcbs_icon{
+    width: 60%;
+}
 .CB_icon{
     width: 30%;
 }
@@ -166,10 +169,10 @@ tr:hover {
         height: 1430px;
     }
     .section_height_skills {
-        height: 1240px;
+        height: 1810px;
     }
     .section_height_education {
-        height: 980px;
+        height: 1130px;
     }
     .image_about{
         display: none;
@@ -187,6 +190,9 @@ tr:hover {
     }
     .icon_spacing {
         margin-top: 50px;
+    }
+    .icon_spacing_hack{
+        margin-top: 20px;
     }
     .icon_row_spacing {
         margin-top: 50px;

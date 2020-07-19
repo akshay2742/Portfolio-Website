@@ -11,12 +11,21 @@
 .pie-wrapper {
   height: 1em;
   width: 1em;
-  float: left;
   margin: 15px;
+  float: left;
   position: relative;
 }
 .pie-wrapper:nth-child(3n + 1) {
   clear: both;
+}
+@media only screen and (max-width:380px){
+    .pie-wrapper {
+        height: 1em;
+        width: 1em;
+        margin: 15px;
+        margin-left: 100px;
+        position: relative;
+    }
 }
 .pie-wrapper .pie {
   height: 100%;
