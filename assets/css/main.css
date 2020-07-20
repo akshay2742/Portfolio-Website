@@ -4,6 +4,9 @@ body{
 .section_height{
     height: 640px;
 }
+.section_height_certi{
+    height: 600px;
+}
 .section_height_about{
     height: 540px;
 }
@@ -12,6 +15,9 @@ body{
 }
 .section_spacing{
     padding-top: 30px;
+}
+.section_spacing_certi{
+    padding-top: 60px;
 }
 .homepage_icon{
     width: 100%;
@@ -47,6 +53,9 @@ body{
 @media only screen and (max-width:768px){
     .image_about{
         width: 40%;
+    }
+    .section_spacing_certi {
+        padding-top: 30px;
     }
 }
 .heading{
@@ -112,7 +121,7 @@ tr:hover {
     margin-top: 10px;
 }
 .section_height_achievements {
-    height: 830px;
+    height: 790px;
 }
 .section_height_education {
     height: 750px;
@@ -146,6 +155,57 @@ tr:hover {
     margin-top: 160px;
     
 }
+#certification{
+    background-color: #000;
+}
+.card_certi{
+    border-radius: 5px;
+    background-color: #eee;
+}
+.certi_spacing{
+    margin-top: 20px;
+}
+.certi_para{
+    font-weight: 600;
+}
+.card_para:hover{
+    background-color: crimson;  
+}
+.credentials{
+    font-size: 10px;
+}
+.certi_spacing_col{
+    margin-top: 0px;
+}
+.certi_icon{
+    margin-top: 20px;
+}
+#contact{
+    background-color: #000;
+}
+.section_height_contact{
+    height: 400px;
+}
+.contact_icon{
+    width: 25%;
+}
+.contact_para{
+    font-weight: 600;
+    font-size: 20px;
+    color: #eee;
+    margin-top: 20px;
+}
+.section_spacing_contact{
+    margin-top: 50px;
+}
+.contact_spacing{
+    margin-top: 0px;
+}
+.developer_para{
+    color: darkgrey;
+    font-size: 15px;
+    margin-top: 75px;
+}
 @media only screen and (max-width:768px){
     .homepage_icon {
         margin-top: 20px;
@@ -166,7 +226,7 @@ tr:hover {
         height: 510px;
     }
     .section_height_achievements {
-        height: 1430px;
+        height: 1270px;
     }
     .section_height_skills {
         height: 1810px;
@@ -205,5 +265,26 @@ tr:hover {
     }
     .skill_icon {
         display: none;
+    }
+    .section_height_certi {
+        height: 1470px;
+    }
+    .certi_spacing_col {
+        margin-top: 20px;
+    }
+    .certi_icon{
+        margin-top: 0px;
+    }
+    .contact_spacing{
+        margin-top: 25px;
+    }
+    .section_height_contact {
+        height: 650px;
+    }
+
+    .developer_para {
+        color: darkgrey;
+        font-size: 15px;
+        margin-top: 26px;
     }
 }
