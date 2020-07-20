@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/timeline.css">
     <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -42,6 +43,11 @@
                     <span>Achievements</span>
                 </a>
             </li>
+            <li>
+                <a data-scroll="contact" href="#contact" class="dot">
+                    <span>Contact</span>
+                </a>
+            </li>
         </ul>
     </nav>
     <section class="section_height" id="homepage">
@@ -51,7 +57,7 @@
                     <div class="row">
                         <div class="col-md-12 col-xs-12 wrapper">
                             <center>
-                                <h2>I'm Akshay Sharma</h2>
+                                <h2 data-aos="fade-right">I'm Akshay Sharma</h2>
                             </center>
                             <div data-text></div>
                             <span class="item">UI & UX designer</span>
@@ -88,12 +94,12 @@
     </section>
     <section class="section_height_about" id="about">
         <div class="container section_spacing">
-            <h3 class="heading"><i class="fa fa-cube"></i> About</h3>
+            <h3 class="heading animate__animated animate__bounce" data-aos="fade-right"><i class="fa fa-cube"></i> About</h3>
         </div>
         <div class="container section_spacing">
         <div class="row">
             <div class="col-md-6">
-                <table>
+                <table data-aos="zoom-in-up">
                     <tr>
                         <th>Name</th>
                         <th>Akshay Sharma</th>
@@ -125,25 +131,25 @@
                 </table>
             </div>
             <div class="col-md-6">
-                <center><img class="image_about" src="assets/images/icons/young.svg"></center>
+                <center><img class="image_about" data-aos="fade-left" src="assets/images/icons/young.svg"></center>
             </div>
         </div>
         </div>    
     </section>
     <section class="section_height_education" id="education">
         <div class="container section_spacing">
-            <h3 class="heading"><img class="achievement_icon" src="assets/images/icons/graduate.svg"> Education</h3>
+            <h3 class="heading" data-aos="fade-right"><img class="achievement_icon" src="assets/images/icons/graduate.svg"> Education</h3>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <div class="container">
-                        <img class="education_icon" src="assets/images/icons/undraw_mathematics_4otb.svg">
+                        <img class="education_icon" data-aos="zoom-out" src="assets/images/icons/undraw_mathematics_4otb.svg">
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="container-fluid blue-bg section_spacing">
-                        <div class="container">
+                        <div class="container" data-aos="zoom-out-up">
                             <!--first section-->
                             <div class="row align-items-center how-it-works">
                                 <div class="col-2 text-center bottom">
@@ -210,15 +216,15 @@
     </section>
     <section class="section_height_skills" id="skills">
         <div class="container section_spacing">
-            <h3 class="heading"><img class="achievement_icon" src="assets/images/icons/graduate.svg"> Skills</h3>
+            <h3 class="heading" data-aos="fade-right"><img class="achievement_icon" src="assets/images/icons/graduate.svg"> Skills</h3>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="skill_icon" src="assets/images/icons/undraw_hacker_mindset_gjwq.svg">
+                    <img data-aos="zoom-out" class="skill_icon" src="assets/images/icons/undraw_hacker_mindset_gjwq.svg">
                 </div>
                 <div class="col-md-6">
-                    <div class="set-size charts-container">
+                    <div class="set-size charts-container" data-aos="flip-up">
                         <div class="row">
                             <div class="pie-wrapper progress-30">
                                 <span class="label">80<span class="smaller">%</span></span>
@@ -307,9 +313,9 @@
     </section>
     <section class="section_height_certi" id="certification">
         <div class="container section_spacing">
-            <h3 class="heading"><img class="achievement_icon" src="assets/images/icons/certificate.svg"> Certifications</h3>
+            <h3 class="heading" data-aos="fade-right"><img class="achievement_icon" src="assets/images/icons/certificate.svg"> Certifications</h3>
         </div>
-        <div class="container section_spacing_certi">
+        <div class="container section_spacing_certi" data-aos="flip-down">
             <div class="row  certi_spacing">
                 <div class="col-md-6 col-xs-12 certi_spacing_col">
                     <div class="container card_certi">
@@ -405,26 +411,26 @@
     </section>
     <section class="section_height_achievements" id="achievements">
         <div class="container section_spacing">
-            <h3 class="heading"><img class="achievement_icon" src="assets/images/icons/success.svg"> Achievements</h3>
+            <h3 class="heading" data-aos="fade-right"><img class="achievement_icon" src="assets/images/icons/success.svg"> Achievements</h3>
         </div>
         <div class="container section_spacing">
             <div class="row">
                 <div class="col-md-4 col-xs-12">
-                    <center><img class="hackerrank_icon" src="assets/images/icons/hackerrank.svg"></center>
+                    <center><img data-aos="flip-up" class="hackerrank_icon" src="assets/images/icons/hackerrank.svg"></center>
                     <center>
                         <p class="clr-white">5 Stars in C++ at HackerRank</p>
                     </center>
                     <center><button type="button" class="btn btn-danger homepage_button_achievements">Credentials</button></center>
                 </div>
                 <div class="col-md-4">
-                    <center><img class="hackerrank_icon icon_spacing" src="assets/images/icons/CN.png"></center>
+                    <center><img data-aos="flip-up" class="hackerrank_icon icon_spacing" src="assets/images/icons/CN.png"></center>
                     <center>
                         <p class="clr-white_cn">10th Rank in Game of Codes</p>
                     </center>
                     <center><button type="button" class="btn btn-danger homepage_button_achievements">Credentials</button></center>
                 </div>
                 <div class="col-md-4">
-                    <center><img class="hackcbs_icon icon_spacing_hack" src="assets/images/icons/hackcbs.PNG"></center>
+                    <center><img data-aos="flip-up" class="hackcbs_icon icon_spacing_hack" src="assets/images/icons/hackcbs.PNG"></center>
                     <center>
                         <p class="clr-white">Co-organizer hackCBS 2.0</p>
                     </center>
@@ -433,7 +439,7 @@
             </div>
             <div class="row icon_row_spacing">
                 <div class="col-md-12 col-xs-12">
-                    <center><img class="CB_icon" src="assets/images/icons/CB.png"></center>
+                    <center><img data-aos="flip-up" class="CB_icon" src="assets/images/icons/CB.png"></center>
                     <center>
                         <p class="clr-white_cb">CA at Coding Blocks</p>
                     </center>
@@ -444,25 +450,25 @@
     </section>
     <footer class="section_height_contact" id="contact">
          <div class="container section_spacing">
-            <h3 class="heading"><img class="achievement_icon" src="assets/images/icons/contact-us.svg"> Contact Me</h3>
+            <h3 class="heading" data-aos="fade-right"><img class="achievement_icon" src="assets/images/icons/contact-us.svg"> Contact Me</h3>
         </div>
         <div class="container">
             <div class="row section_spacing_contact">
                 <div class="col-md-4">
                     <div class="container">
-                        <center><img class="contact_icon" src="assets/images/icons/mail.svg"></center>
+                        <center><img data-aos="flip-up" class="contact_icon" src="assets/images/icons/mail.svg"></center>
                         <center><p class="contact_para">akshays274@gmail.com</p></center>
                     </div>
                 </div>
                 <div class="col-md-4 contact_spacing">
                     <div class="container">
-                        <center><img class="contact_icon" src="assets/images/icons/phone.svg"></center>
+                        <center><img data-aos="flip-up" class="contact_icon" src="assets/images/icons/phone.svg"></center>
                         <center><p class="contact_para">+91 9639064985</p></center>
                     </div>
                 </div>
                 <div class="col-md-4 contact_spacing">
                     <div class="container">
-                        <center><img class="contact_icon" src="assets/images/icons/www.svg"></center>
+                        <center><img data-aos="flip-up" class="contact_icon" src="assets/images/icons/www.svg"></center>
                         <center><p class="contact_para">www.coder-akshay.tech</p></center>
                     </div>
                 </div>
@@ -478,6 +484,10 @@
     <script src="assets/js/navbar.js"></script>
     <script src="assets/js/timeline.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script>
         VANTA.DOTS({
         el: "#homepage",
