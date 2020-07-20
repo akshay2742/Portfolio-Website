@@ -47,7 +47,7 @@
   width: 5px;
   height: 5px;
   right: 0;
-  border: 2px solid #181818;
+  border: 2px solid #eee;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
