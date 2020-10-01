@@ -1,2 +1,2 @@
 # MyPortfolio
-Contains Portfolio site code
+Contains my Portfolio site code
